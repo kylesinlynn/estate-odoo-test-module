@@ -22,4 +22,6 @@
         'views/menus.xml',
         'views/property_views.xml',
     ],
+    
+    'installable': True,
 }
