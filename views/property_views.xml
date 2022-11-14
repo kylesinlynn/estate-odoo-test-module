@@ -105,7 +105,7 @@
         </record>
 
         <!-- Search -->
-        <!-- <record id="estate_property_view_search" model="ir.ui.view">
+        <record id="estate_property_view_search" model="ir.ui.view">
             <field name="name">estate.property.search</field>
             <field name="model">estate.property</field>
             <field name="arch" type="xml">
@@ -124,7 +124,7 @@
                     </group>
                 </search>
             </field>
-        </record> -->
+        </record>
     
         <!-- Action -->
         <record id="estate_property_action" model="ir.actions.act_window">
