@@ -21,6 +21,12 @@
             name="Property"
             parent="settings"
             action="estate_property_action"
+            sequence="5"/>
+        <menuitem
+            id="type"
+            name="Type"
+            parent="settings"
+            action="estate_property_type_action"
             sequence="10"/>
     
     </data>

@@ -21,6 +21,7 @@
         'security/ir.model.access.csv',
         'views/menus.xml',
         'views/property_views.xml',
+        'views/type_views.xml',
     ],
     
     'installable': True,
