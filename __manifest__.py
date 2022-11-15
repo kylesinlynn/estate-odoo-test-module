@@ -22,6 +22,7 @@
         'views/menus.xml',
         'views/property_views.xml',
         'views/type_views.xml',
+        'views/tag_views.xml',
     ],
     
     'installable': True,

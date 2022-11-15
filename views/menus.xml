@@ -27,6 +27,12 @@
             name="Type"
             parent="settings"
             action="estate_property_type_action"
+            sequence="9"/>
+        <menuitem
+            id="tag"
+            name="Tag"
+            parent="settings"
+            action="estate_property_tag_action"
             sequence="10"/>
     
     </data>
