@@ -1,0 +1,398 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* estate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20221104\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-16 08:27+0000\n"
+"PO-Revision-Date: 2022-11-16 08:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: estate
+#: model:ir.actions.report,print_report_name:estate.property_report_action
+msgid "'Property - %s' %(object.name) "
+msgstr ""
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__active
+msgid "Active"
+msgstr "ဈေးကွက်ပေါ်ရှိ၊မရှိ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Active:"
+msgstr "ဈေးကွက်ပေါ်ရှိ၊မရှိ :"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Available"
+msgstr "ရနိုင်ခြေ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__date_availability
+msgid "Available From"
+msgstr "စတင်ပြီးရောင်းချမည့်ရက်"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__bedrooms
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Bedrooms"
+msgstr "အိပ်ခန်း"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Bedrooms:"
+msgstr "အိပ်ခန်း :"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_form
+msgid "Cancel"
+msgstr "မရောင်းတော့ပါ"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__canceled
+msgid "Canceled"
+msgstr "မရောင်းချတော့ပါ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__color
+msgid "Color Index"
+msgstr ""
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__create_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__create_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__create_uid
+msgid "Created by"
+msgstr "ရောင်းချသူ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__create_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__create_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__create_date
+msgid "Created on"
+msgstr "စတင်ရောင်းချသောရက်"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Date Availability:"
+msgstr "ရရှိနိုင်သောရက် :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__description
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_form
+msgid "Description"
+msgstr "အခြင်းအရာ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Description:"
+msgstr "အခြင်းအရာ :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__display_name
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__display_name
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__display_name
+msgid "Display Name"
+msgstr "ခေါင်းကြီးပိုင်း"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__e
+msgid "East"
+msgstr "အရှေ့"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__expected_price
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Expected Price"
+msgstr "ခေါ်ဈေး"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Expected Price:"
+msgstr "ခေါ်ဈေး :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__facades
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Facades"
+msgstr "မျက်နှာစာ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Facades:"
+msgstr "မျက်နှာစာ :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garage
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Garage"
+msgstr "ဂိုထောင်"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Garage:"
+msgstr "ဂိုထောင် :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garden
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_form
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Garden"
+msgstr "ဥယျာဉ်"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garden_area
+msgid "Garden Area (sqm)"
+msgstr "ဥယျာဉ်အကျယ်အဝန်း (မီတာဖြင့်)"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Garden Area:"
+msgstr "ဥယျာဉ်အကျယ်အဝန်း :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__garden_orientation
+msgid "Garden Orientation"
+msgstr "ဥယျာဉ်တည်နေရာ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Garden Orientation:"
+msgstr "ဥယျာဉ်တည်နေရာ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Garden:"
+msgstr "ဥယျာဉ် :"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Group By"
+msgstr "အဖွဲ့အဖြစ်သတ်မှတ်သူ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__id
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__id
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__id
+msgid "ID"
+msgstr "တိကျသောနံပါတ်"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property____last_update
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag____last_update
+#: model:ir.model.fields,field_description:estate.field_estate_property_type____last_update
+msgid "Last Modified on"
+msgstr "နောက်ဆုံးပြင်ဆင်ထားသောအချိန်"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__write_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__write_uid
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__write_uid
+msgid "Last Updated by"
+msgstr "ပြင်ဆင်သူ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__write_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__write_date
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__write_date
+msgid "Last Updated on"
+msgstr "နောက်ဆုံးပြင်ဆင်ထားသောအချိန်"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Living Area"
+msgstr "ဧရိယာအကျယ်အဝန်း"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__living_area
+msgid "Living Area (sqm)"
+msgstr "ဧရိယာအကျယ်အဝန်း (မီတာဖြင့်)"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Living Area:"
+msgstr "ဧရိယာအကျယ်အဝန်း"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_tag__name
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__name
+msgid "Name"
+msgstr "ခေါင်းကြီးပိုင်း"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__new
+msgid "New"
+msgstr "အသစ်"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__n
+msgid "North"
+msgstr "မြောက်"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__offer_accepted
+msgid "Offer Accepted"
+msgstr "ဈေးကိုလက်ခံလိုက်ပါပြီ"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__offer_received
+msgid "Offer Received"
+msgstr "ဈေးတည့်နေပါပြီ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__postcode
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Postcode"
+msgstr "စာတိုက်အမှတ်"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Postcode:"
+msgstr "စာတိုက်အမှတ် :"
+
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_action
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__property_ids
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_tree
+msgid "Properties"
+msgstr "အိမ်ခြံမြေများ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Properties Search"
+msgstr "အမျိုးအစားများရှာခြင်း"
+
+#. module: estate
+#: model:ir.ui.menu,name:estate.property
+msgid "Property"
+msgstr "အိမ်ခြံမြေအမျိုးအစား"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Property Report"
+msgstr "အိမ်ခြံမြေအစီရင်ခံစာ"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__property_type_id
+msgid "Property Type"
+msgstr "အိမ်ခြံမြေအမျိုးအစား"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Property Type:"
+msgstr "အိမ်ခြံမြေအမျိုးအစား :"
+
+#. module: estate
+#: model:ir.ui.menu,name:estate.estate
+msgid "Real Estate"
+msgstr "အိမ်ခြံမြေ"
+
+#. module: estate
+#: model:ir.actions.report,name:estate.property_report_action
+#: model:ir.model,name:estate.model_estate_property
+msgid "Real Estate Property"
+msgstr "အိမ်ခြံမြေပိုင်ဆိုင်မှု"
+
+#. module: estate
+#: model:ir.model,name:estate.model_estate_property_tag
+msgid "Real Estate Property Tag"
+msgstr "အိမ်ခြံမြေနှင့်ဆိုင်သော"
+
+#. module: estate
+#: model:ir.model,name:estate.model_estate_property_type
+msgid "Real Estate Property Type"
+msgstr "အိမ်ခြံမြေအမျိုးအစား"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__selling_price
+msgid "Selling Price"
+msgstr "ရောင်းဈေး"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_kanban
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Selling Price:"
+msgstr "ရောင်းဈေး :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property_type__sequence
+msgid "Sequence"
+msgstr "အစဉ်လိုက်"
+
+#. module: estate
+#: model:ir.ui.menu,name:estate.settings
+msgid "Settings"
+msgstr "အပြင်အဆင်"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__state__sold
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_form
+msgid "Sold"
+msgstr "ရောင်းပြီး"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__s
+msgid "South"
+msgstr "တောင်"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "State:"
+msgstr "အခြေအနေ :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__state
+msgid "Status"
+msgstr "အခြေအနေ"
+
+#. module: estate
+#: model:ir.ui.menu,name:estate.tag
+msgid "Tag"
+msgstr "တွဲထားသည်များ"
+
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_tag_action
+#: model:ir.model.fields,field_description:estate.field_estate_property__tag_ids
+msgid "Tags"
+msgstr "တွဲထားသည်များ"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Tags:"
+msgstr "တွဲထားသည်များ :"
+
+#. module: estate
+#: model:ir.model.fields,field_description:estate.field_estate_property__name
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Title"
+msgstr "ခေါင်းကြီးပိုင်း"
+
+#. module: estate
+#: model_terms:ir.ui.view,arch_db:estate.report_property
+msgid "Title:"
+msgstr "ခေါင်းကြီးပိုင်း :"
+
+#. module: estate
+#: model:ir.ui.menu,name:estate.type
+#: model_terms:ir.ui.view,arch_db:estate.estate_property_view_search
+msgid "Type"
+msgstr "အမျိုးအစား"
+
+#. module: estate
+#: model:ir.actions.act_window,name:estate.estate_property_type_action
+msgid "Types"
+msgstr "အမျိုးအစားများ"
+
+#. module: estate
+#: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__w
+msgid "West"
+msgstr "အနောက်"
