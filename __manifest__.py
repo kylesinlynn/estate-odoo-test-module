@@ -23,6 +23,7 @@
         'views/type_views.xml',
         'views/tag_views.xml',
         'views/menus.xml',
+        'report/property_report.xml',
     ],
     
     'installable': True,
