@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        <!-- Sequence -->
+        <record id="estate_property_sequence" model="ir.sequence">
+            <field name="name">Property Number</field>
+            <field name="code">estate.property.sequence</field>
+            <field name="active">TRUE</field>
+            <field name="prefix">PN</field>
+            <field name="padding">5</field>
+            <field name="number_next">1</field>
+            <field name="number_increment">1</field>
+        </record>
+
         <!-- Kanban View -->
         <record id="estate_property_view_kanban" model="ir.ui.view">
             <field name="name">estate.property.view.kanban</field>
@@ -11,6 +22,9 @@
                     <templates>
                         <t t-name="kanban-box">
                             <div>
+                                <div>
+                                    <field name="pn" />
+                                </div>
                                 <div>
                                     <field name="name" />
                                 </div>
@@ -45,6 +59,7 @@
             <field name="model">estate.property</field>
             <field name="arch" type="xml">
                 <tree string="Properties">
+                    <field name="pn" />
                     <field name="name" />
                     <field name="property_type_id" />
                     <field name="postcode" />
@@ -72,16 +87,17 @@
                     </header>
                     <sheet>
                         <div class='oe_title'>
-                            <h1><field name="name" /></h1>
+                            <h1><field name="pn" /></h1>
                             <field name="tag_ids" widget="many2many_tags" />
                         </div>
                         <group>
                             <group>
-                                <field name="property_type_id" />
+                                <field name="name" />
                                 <field name="postcode" />
                                 <field name="date_availability" />
                             </group>
                             <group>
+                                <field name="property_type_id" />
                                 <field name="expected_price" />
                                 <field name="selling_price" />
                             </group>
@@ -119,6 +135,7 @@
             <field name="model">estate.property</field>
             <field name="arch" type="xml">
                 <search string="Properties Search">
+                    <field name="pn" string="Property No"/>
                     <field name="name" string='Title' />
                     <field name="property_type_id" string="Type" />
                     <field name="postcode" string='Postcode' />
