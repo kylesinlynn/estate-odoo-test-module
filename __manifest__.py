@@ -15,7 +15,7 @@
     'category': 'Housing',
     'version': '0.01',
 
-    'depends': ['base'],
+    'depends': ['base', 'mail'],
 
     'data': [
         'security/ir.model.access.csv',
