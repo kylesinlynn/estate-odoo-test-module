@@ -10,9 +10,9 @@ class Property(models.Model):
     _description = 'Real Estate Property'
     
     pn = fields.Char('pn', readonly=True, required=True, copy=False, default='New')
-    name = fields.Char('Title', required=True, track_visibility='always')
-    description = fields.Text('Description', track_visibility='always')
-    postcode = fields.Char('Postcode', track_visibility='always')
+    name = fields.Char('Title', required=True, track_visibility='always', translate=True)
+    description = fields.Text('Description', track_visibility='always', translate=True)
+    postcode = fields.Char('Postcode', track_visibility='always', translate=True)
     date_availability = fields.Date('Available From', default=lambda self: fields.Date.context_today(self) + relativedelta(months=3), copy=False, track_visibility='always')
     expected_price = fields.Float('Expected Price', required=True, track_visibility='always')
     selling_price = fields.Float('Selling Price', required=True, track_visibility='always')
