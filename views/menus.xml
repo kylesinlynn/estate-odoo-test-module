@@ -6,7 +6,8 @@
         <menuitem
             id="estate"
             name="Real Estate"
-            sequence="10"/>
+            sequence="10"
+            web_icon="estate,static/description/icon.png"/>
 
         <!-- menu categories -->
         <menuitem
